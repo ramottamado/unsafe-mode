@@ -22,7 +22,7 @@
 
 class Extension {
     constructor() {
-        // Empty constructor
+        this._oldMode = global.context.unsafe_mode;
     }
 
     enable() {
@@ -30,7 +30,7 @@ class Extension {
     }
 
     disable() {
-        global.context.unsafe_mode = false;
+        global.context.unsafe_mode = this._oldMode;
     }
 }
 
