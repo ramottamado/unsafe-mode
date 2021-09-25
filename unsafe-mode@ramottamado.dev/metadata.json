@@ -1,0 +1,9 @@
+{
+    "name": "Unsafe Mode",
+    "description": "Toggle unsafe-mode on",
+    "uuid": "unsafe-mode@ramottamado.dev",
+    "shell-version": [
+        "41"
+    ],
+    "url": "https://github.com/ramottamado/unsafe-mode"
+}
